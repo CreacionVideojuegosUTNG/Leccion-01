@@ -11,7 +11,7 @@ using UnityEngine;
 
 public class PlayerControllerX : MonoBehaviour
 {
-    public float speed = 20; //variable que guarda la velocidad
+    public float speed = 20;  //variable que guarda la velocidad
     public float rotationSpeed; //variable que guarda la rotacion
     public float verticalInput;
 
@@ -27,11 +27,11 @@ public class PlayerControllerX : MonoBehaviour
         //obtiene la entrada vertical del usuario
         verticalInput = Input.GetAxis("Vertical");
 
-        //Mueve el avión hacia adelante a una velocidad constante este avanza forward
+         //Mueve el avión hacia adelante a una velocidad constante este avanza forward
         transform.Translate(Vector3.forward * speed * Time.deltaTime);//agrege el * Time.deltaTime
 
-        //inclina el avión hacia arriba/abajo según las teclas de flecha arriba/abajo
-        transform.Rotate(Vector3.right, Time.deltaTime * rotationSpeed * verticalInput);//punto 3 listo
+       //inclina el avión hacia arriba/abajo según las teclas de flecha arriba/abajo
+      transform.Rotate(Vector3.left, Time.deltaTime * rotationSpeed * verticalInput);
 
      
     }

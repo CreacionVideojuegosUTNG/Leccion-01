@@ -11,7 +11,8 @@ using UnityEngine;
 public class SpinPropellerX : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float propeller = 1000;
+
+    private float propeller = 1000; // Variable para guardar el giro de las elices
 
     void Start()
     {
@@ -21,9 +22,7 @@ public class SpinPropellerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    //rotacion del avión
-     transform.Rotate(Vector3.forward, propeller * Time.deltaTime);
+     transform.Rotate(Vector3.forward, propeller * Time.deltaTime); //realiza el giro de las elices
    
     }
 }
