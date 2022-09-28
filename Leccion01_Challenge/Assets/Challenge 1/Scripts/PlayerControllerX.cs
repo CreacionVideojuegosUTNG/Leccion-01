@@ -11,8 +11,8 @@ using UnityEngine;
 
 public class PlayerControllerX : MonoBehaviour
 {
-    public float speed = 20;
-    public float rotationSpeed;
+    public float speed = 20; //variable que guarda la velocidad
+    public float rotationSpeed; //variable que guarda la rotacion
     public float verticalInput;
 
     // Start is called before the first frame update
@@ -24,15 +24,14 @@ public class PlayerControllerX : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // get the user's vertical input
+        //obtiene la entrada vertical del usuario
         verticalInput = Input.GetAxis("Vertical");
 
-        // move the plane forward at a constant rate este avanza forwoard//punot 1 forward
+        //Mueve el avión hacia adelante a una velocidad constante este avanza forward
         transform.Translate(Vector3.forward * speed * Time.deltaTime);//agrege el * Time.deltaTime
 
-        // tilt the plane up/down based on up/down arrow keys
-    //   transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
-      transform.Rotate(Vector3.right, Time.deltaTime * rotationSpeed * verticalInput);//punto 3 listo
+        //inclina el avión hacia arriba/abajo según las teclas de flecha arriba/abajo
+        transform.Rotate(Vector3.right, Time.deltaTime * rotationSpeed * verticalInput);//punto 3 listo
 
      
     }
