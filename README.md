@@ -6,7 +6,7 @@ _Unit 1 - Player Control, Challenge._
 
 _Este repositorio tiene almacenado la leccion 01 del curso Unity_
 
-## Leccion01PlayerControl ⚙️
+### Leccion01PlayerControl ⚙️
 
 _Contiene el juego que se muestra en la lección 01 del campitulo 1_
 
