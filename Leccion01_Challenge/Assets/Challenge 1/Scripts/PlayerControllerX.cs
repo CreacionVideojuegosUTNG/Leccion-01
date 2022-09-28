@@ -13,7 +13,7 @@ public class PlayerControllerX : MonoBehaviour
 {
     public float speed = 20;  //variable que guarda la velocidad
     public float rotationSpeed; //variable que guarda la rotacion
-    public float verticalInput;
+    public float verticalInput; 
 
     // Start is called before the first frame update
     void Start()
