@@ -13,3 +13,10 @@ _Contiene el juego que se muestra en la lección 01 del campitulo 1_
 ### Leccion01Challenge 🔩
 
 _Contiene el desafio que se muestra en la lección 01 del capitulo 1_
+
+## Enlace al Video y laboratio 🛠️
+
+_Contiene los enlaces a google drive_
+
+* [Enlace del video](https://drive.google.com/file/d/1l2nb43hen2pZP2RzAebepxHwWcXBPlXe/view?usp=sharing) - Video de explicación del Challenge 01
+* [Enlace del PDF](https://drive.google.com/file/d/1Eit14yP_EbEctJxOQRKHggegoCxvKexH/view?usp=sharing) - Pdf del laboratorio del capítulo 01
